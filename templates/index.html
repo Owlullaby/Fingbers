@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fingbers - from fingers to numbers.</title>
+        <style>
+         #containers {
+             margin: 0px auto;
+             border: 10px #333 solid;
+         }
+         #videoElement {
+             width: 300px;
+             height: 300px;
+             background-color: #666;
+         }
+         #canvasElement {
+             width: 300px;
+             height: 300px;
+             display: none;
+		 }
+		 @media only screen and (min-width: 767px){
+
+			#container2 {
+				order: -1;
+				height: 25%;
+			}
+			#container3 {
+				height: 25%;
+			}
+		}
+        </style>
+    </head>
+    <body>
+		<div id="containers" class="columns is-desktop level">
+			<div id="container1" class="notification has-text-centered column">
+					<img src="../static/image/fingbers.png" style="height:100px">
+					<p style="text-align: center; font-family:'Courier New';"><br>Fingbers - from fingers to numbers.<br><br><br>
+					Helping starters to master the basic concept of finger counting by using Machine Learning.<br>
+					Show your fingers at the webcam to get the relative number and its value.</p><br>
+					<video autoplay="true" id="videoElement"></video><br><br>
+					<a href="https://www.freepik.com/free-photos-vectors/">Vector Images of Numbers by Freepik</a><br>
+					<a href="https://www.vecteezy.com/free-vector/">Vector Images of Dogs by Vecteezy</a>
+					<canvas id="canvasElement"></canvas>
+			</div>
+			<div id="container2" class="column level-item has-text-centered" style="min-height:600px;">
+					<p id="message">loading...</p>
+					<div id="numbers"></div>
+			</div>
+			<div id="container3" class="column level-item has-text-centered" style="min-height:600px">
+					<div id="dogs"></div>
+			</div>
+        </div>
+    </body>
+</html>
