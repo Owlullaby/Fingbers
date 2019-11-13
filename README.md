@@ -5,12 +5,12 @@ A ML based web app developed to help beginners to learn finger counting. :hand::
 
 ### How to use?
 
-Show your fingers at the web cam to get the number and its relative value.
+Show your fingers at the web cam to get the number and its relative value. (0 to 10)
 
 
 ### What is needed?
 
-What you need to install before running Fingbers.
+Install before running Fingbers.
 
 ```
 $pip install -r requirements.txt
@@ -24,6 +24,8 @@ Open fingbers.py located directory, then run in cmd
 $python fingbers.py
 ```
 Navigate to localhost:5000 on your browser to test out the Fingbers web app.
+
+![screenshots](screenshots/ss.jpg)
 
 
 ## Made possible with
