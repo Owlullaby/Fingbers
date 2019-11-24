@@ -5,7 +5,7 @@ A ML based web app developed to help beginners to learn finger counting. :hand::
 
 ### How to use?
 
-Show your fingers at the web cam to get the number and its relative value. (0 to 10)
+Show your fingers at the webcam to get the number and its relative value. (0 to 10)
 
 
 ### What is needed?
