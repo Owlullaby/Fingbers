@@ -1,6 +1,6 @@
 # Fingbers - From fingers to numbers.
 
-A ML based web app developed to help beginners to learn finger counting using Concrete-Representational-Abstract approach. :hand::computer:
+A machine learning based web app developed to help beginners to learn finger counting using Concrete-Representational-Abstract approach. :hand::computer:
 
 
 ### How to use?
