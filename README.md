@@ -1,6 +1,6 @@
 # Fingbers - From fingers to numbers.
 
-A ML based web app developed to help beginners to learn finger counting. :hand::computer:
+A ML based web app developed to help beginners to learn finger counting using Concrete-Representational-Abstract approach. :hand::computer:
 
 
 ### How to use?
@@ -31,7 +31,7 @@ Navigate to localhost:5000 on your browser to test out the Fingbers web app.
 ## Made possible with
 
 * [Handtrack.js](https://victordibia.github.io/handtrack.js/#/) - For hand detection in the browser
-* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) - For gesture classification in the server
+* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) - For gesture classification on the server
 
 
 ## Authors
