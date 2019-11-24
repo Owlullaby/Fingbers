@@ -1,4 +1,4 @@
-# Fingbers Web App
+# Fingbers - From fingers to numbers.
 
 A ML based web app developed to help beginners to learn finger counting. :hand::computer:
 
@@ -46,5 +46,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* This is a development project done along with the completion of project paper "THE DEVELOPMENT OF MACHINE LEARNING BASED WEB APP FOR TEACHING FINGER COUNTING USING CRA APPROACH".
+* This is a development project done along with the completion of project paper "FINGBERS: THE MACHINE LEARNING BASED WEB APP FOR TEACHING FINGER COUNTING USING CRA APPROACH".
 
