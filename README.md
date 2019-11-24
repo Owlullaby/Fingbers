@@ -41,7 +41,7 @@ Navigate to localhost:5000 on your browser to test out the Fingbers web app.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/Owlullaby/Fingbers/blob/master/LICENSE). 
 
 
 ## Acknowledgments
