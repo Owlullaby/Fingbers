@@ -2,7 +2,7 @@ eventlet==0.25.0
 Flask_SocketIO==4.2.1
 numpy==1.17.2
 Flask==1.1.1
-tensorflow_gpu==1.15.2
+tensorflow_gpu==2.5.1
 opencv_python==3.4.4.19
 Pillow==6.2.1
 object_detection==0.0.3
